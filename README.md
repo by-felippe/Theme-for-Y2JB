@@ -2,7 +2,7 @@
 
 A customized MOD based on the original Y2JB + P2JB project for PlayStation 5.
 
-This MOD focuses on making the jailbreak process easier, more automated, and visually informative while preserving the original project as much as possible.
+The goal of this MOD is to make the process more automated, stable, simple, and visually informative while preserving the original project as much as possible.
 
 ## Compatibility
 
@@ -15,75 +15,78 @@ The MOD also supports different compatible YouTube versions.
 ## Main Features
 
 - Automatic P2JB execution
-- Improved stability during startup
-- 60-second preparation before P2JB
+- 60-second preparation for improved stability
+- Pipes reduced to approximately **33–34**
+- No need to disable the Internet
+- Payloads that require the Internet can continue working normally
+- Visual information during the main waiting periods
+- Progress bar and percentage
 - Automatic Payload Manager startup
 - Automatic YouTube closing
 - Support for different YouTube versions
-- Theme Update via USB
+- Theme Update system via USB
 - Automatic update verification
-- Backup protection during updates
-- Visual progress information
-- Cleaner and more organized experience
+- Protection and restoration in case of an update failure
 
 ## 60-Second Preparation
 
-Before starting P2JB, the MOD waits 60 seconds to allow the number of pipes to decrease to approximately **33–34**.
+Before starting P2JB, the MOD waits **60 seconds** to allow the number of Pipes to decrease to approximately **33–34**.
 
-This helps provide a more stable environment and reduces the risk of Kernel Panic.
+This helps improve stability and reduce the risk of Kernel Panic.
 
-**You do not need to disable your Internet connection.**
+**There is no need to disable the Internet to reduce the Pipes.**
 
-The 60-second preparation handles this waiting period automatically, and keeping the Internet enabled is useful because some payloads may require an Internet connection.
+The 60-second wait already performs this preparation, allowing the Internet connection to remain active, including for Payloads that require it to work.
 
-The waiting process is visually displayed so you always know what is happening.
+The entire waiting period is visually displayed to make it easier to follow the process.
 
 ## Visual Information
 
-The MOD provides visual information during the main waiting periods.
+The main stages are visually displayed.
 
-You can easily see when the system is:
+During longer processes, the MOD displays:
 
-- Preparing P2JB
-- Finalizing P2JB
-- Installing a Theme Update
-- Completing an operation
+- Information about what is happening
+- Progress bar
+- Percentage
 
-Progress bars and percentages are displayed during longer processes.
+This allows the user to follow the process without waiting without any information.
 
 ## Payload Manager
 
-After everything is completed, the MOD automatically starts the Payload Manager.
+After the process is completed, the MOD automatically starts the **Payload Manager**.
 
 It then waits **3 seconds** and automatically closes YouTube.
 
-No additional manual action is required.
+Everything happens automatically, without the need to perform these steps manually.
 
 ## Theme Update
 
-The MOD includes an optional Theme Update system.
+The MOD includes an optional Theme Update system via USB.
 
 Simply place:
 
 `theme-update.zip`
 
-in the root of your USB drive.
+in the root of the USB drive.
 
-If an update is available, the MOD will verify and install it automatically.
+If an update is found, the MOD automatically verifies and installs it.
 
-If no update is found, everything continues normally.
-
-During an update, you will see:
+During the update, the following will be displayed:
 
 **Updating Theme**
 
-with a progress bar and percentage.
+along with a progress bar and percentage.
 
-The system also includes protection to help restore the previous files if an update fails.
+If no update is found, the MOD simply continues normally.
 
-## Support / Donations
+The system also includes protection to restore the previous files if a failure occurs during the update.
 
-If you enjoy this project and would like to support its development and future improvements, donations are completely optional and greatly appreciated.
+## Support the Project / Donations
+
+If you enjoy this project and would like to support its development, testing, and future improvements, any contribution is greatly appreciated.
+
+**Donations are completely optional.**
 
 - **Bitcoin:** `bc1q3s7lz38979h8h2acm4qd43zne7rhukkdtwaj85`
 - **Solana:** `J9xjUdTsF8QrkbJ6R8eyHa6TNti7Xuwjy1dZqL22FnRg`
@@ -92,8 +95,8 @@ Thank you for your support!
 
 ## Credits
 
-All credits for the original Y2JB, P2JB, Payload Manager, and other original components belong to their respective developers and contributors.
+All credits for Y2JB, P2JB, Payload Manager, and other original components belong to their respective developers and contributors.
 
-Thank you to everyone involved in the original projects that made this MOD possible.
+Thank you to all the developers who made the original projects possible.
 
 **MOD by Felippe**
